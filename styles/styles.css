@@ -1,0 +1,66 @@
+/* Styles  */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #333;
+  line-height: 20px;
+}
+
+.container {
+  position: relative;
+}
+
+.container h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.game-box,
+.details-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.details-wrap {
+  margin-bottom: 10px;
+}
+
+.game-box {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.details-wrap .scores-wrap,
+.details-wrap .seconds-wrap {
+  float: left;
+  width: 50%;
+}
+
+.details-wrap .seconds-wrap {
+  text-align: right;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.square {
+  border: 1px solid #ccc;
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+}
+
+.mole {
+  background: url("../images/mole.png") #eee no-repeat center center;
+}
